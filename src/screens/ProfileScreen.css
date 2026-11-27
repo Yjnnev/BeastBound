@@ -1,0 +1,10 @@
+
+.edit-profile-dialog-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.edit-profile-dialog-buttons .game-btn {
+    display: flex;
+    flex: 1;
+}

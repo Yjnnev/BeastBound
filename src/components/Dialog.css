@@ -1,0 +1,20 @@
+.overlay {
+    position:fixed;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.dialog {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 35vw;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}

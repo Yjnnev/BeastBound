@@ -1,0 +1,41 @@
+
+.card_ui {
+    max-width: 15rem;
+    background-color: rgb(157, 157, 157);
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+.card_ui.selected {
+    background-color: rgba(157, 157, 157, 0.5);
+}
+
+img {
+    width: 100%;
+    max-width: 15rem;
+    height: auto;
+}
+
+.hp-bar {
+    position: relative;
+    width: 100%;
+    height: 14px;
+    background-color: #333;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+}
+
+.hp-fill {
+    position: absolute;     
+    top: 0;
+    left: 0;
+    border-radius: 7px;
+    height: 100%;           
+    background-color: green;
+}
+
+.hp-bar span {
+    position: relative;
+    z-index: 1;
+}
